@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Totinhas-module-ii/static/css/main.69e60527.chunk.css",
-    "main.js": "/Totinhas-module-ii/static/js/main.d8fd58e7.chunk.js",
-    "main.js.map": "/Totinhas-module-ii/static/js/main.d8fd58e7.chunk.js.map",
+    "main.css": "/Totinhas-module-ii/static/css/main.ff32d650.chunk.css",
+    "main.js": "/Totinhas-module-ii/static/js/main.4ce58c14.chunk.js",
+    "main.js.map": "/Totinhas-module-ii/static/js/main.4ce58c14.chunk.js.map",
     "runtime-main.js": "/Totinhas-module-ii/static/js/runtime-main.767ad187.js",
     "runtime-main.js.map": "/Totinhas-module-ii/static/js/runtime-main.767ad187.js.map",
     "static/js/2.ccb260fc.chunk.js": "/Totinhas-module-ii/static/js/2.ccb260fc.chunk.js",
     "static/js/2.ccb260fc.chunk.js.map": "/Totinhas-module-ii/static/js/2.ccb260fc.chunk.js.map",
     "index.html": "/Totinhas-module-ii/index.html",
-    "precache-manifest.3b1a010722155cbcc181d45c4752a654.js": "/Totinhas-module-ii/precache-manifest.3b1a010722155cbcc181d45c4752a654.js",
+    "precache-manifest.f2fcc0abbdf6e5cf9c51abcc0fba01d4.js": "/Totinhas-module-ii/precache-manifest.f2fcc0abbdf6e5cf9c51abcc0fba01d4.js",
     "service-worker.js": "/Totinhas-module-ii/service-worker.js",
-    "static/css/main.69e60527.chunk.css.map": "/Totinhas-module-ii/static/css/main.69e60527.chunk.css.map",
+    "static/css/main.ff32d650.chunk.css.map": "/Totinhas-module-ii/static/css/main.ff32d650.chunk.css.map",
     "static/js/2.ccb260fc.chunk.js.LICENSE.txt": "/Totinhas-module-ii/static/js/2.ccb260fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.767ad187.js",
     "static/js/2.ccb260fc.chunk.js",
-    "static/css/main.69e60527.chunk.css",
-    "static/js/main.d8fd58e7.chunk.js"
+    "static/css/main.ff32d650.chunk.css",
+    "static/js/main.4ce58c14.chunk.js"
   ]
 }
