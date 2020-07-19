@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import "./HomePage.css";
 import { validation } from "../../functions";
+import { basePath } from "../../constants";
 
-const HomePage = ({
-  isLoggedIn,
-  onLogin,
-  onLogout,
-}) => {
+const HomePage = ({ isLoggedIn, onLogin, onLogout }) => {
   const [email, setEmail] = useState("");
   const [isEmailValid, setisEmailValid] = useState(true);
   const [emailIsSent, setEmailIsSent] = useState(false);
@@ -23,7 +20,7 @@ const HomePage = ({
     setAPIKeyIsValid(validation.APIKey(APIkey));
 
     if (validation.APIKey(APIkey)) {
-      onLogin(APIkey)
+      onLogin(APIkey);
     }
   };
 
@@ -79,7 +76,7 @@ const HomePage = ({
               </button>
               <p className="small">
                 Having problems accessing your account?{" "}
-                <a href="/contacts">Contact us</a>
+                <a href={basePath + "/contacts"}>Contact us</a>
               </p>
             </form>
           </div>
@@ -106,7 +103,7 @@ const HomePage = ({
               )}
               <p className="small">
                 Having problems requesting access?{" "}
-                <a href="/contacts">Contact us</a>
+                <a href={basePath + "/contacts"}>Contact us</a>
               </p>
             </form>
           </div>

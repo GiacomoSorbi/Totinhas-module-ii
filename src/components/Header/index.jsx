@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
+import { basePath } from "../../constants";
 
 const Header = ({ isLoggedIn, goToHomePage }) => {
   return (
@@ -14,20 +15,20 @@ const Header = ({ isLoggedIn, goToHomePage }) => {
       <nav>
         <ul>
           <li>
-            <NavLink activeClassName="active" to="/" exact>
+            <NavLink activeClassName="active" to={basePath} exact>
               Home
             </NavLink>
           </li>
           {isLoggedIn ? (
             <li>
-              <NavLink activeClassName="active" to="/dashboard">
+              <NavLink activeClassName="active" to={basePath + "/dashboard"}>
                 Dashboard
               </NavLink>
             </li>
           ) : null}
 
           <li>
-            <NavLink activeClassName="active" to="/contacts">
+            <NavLink activeClassName="active" to={basePath + "/contacts"}>
               Contacts
             </NavLink>
           </li>

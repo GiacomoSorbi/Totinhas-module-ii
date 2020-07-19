@@ -10,7 +10,7 @@ import {
   CreateItemPage,
   Error404,
 } from "./pages";
-import { itemList } from "./constants";
+import { itemList, basePath } from "./constants";
 
 function App() {
   const [cardList, setCardList] = useState(itemList);
@@ -22,13 +22,13 @@ function App() {
       (!isLoggedIn && history.location.pathname === "/dashboard") ||
       (!isLoggedIn && history.location.pathname === "/new-item")
     ) {
-      history.push("/");
+      history.push(basePath);
     }
   }, [history, isLoggedIn]);
 
   const onLogin = (APIkey) => {
     setIsLoggedIn(true);
-    history.push("/dashboard");
+    history.push(basePath + "/dashboard");
   };
 
   const onLogout = () => {
@@ -58,28 +58,28 @@ function App() {
   };
   const onNewItem = (newItem) => {
     setCardList(cardList.concat([newItem]));
-    history.push("/dashboard");
+    history.push(basePath + "/dashboard");
   };
   const createNewItem = () => {
-    history.push("/new-item");
+    history.push(basePath + "/new-item");
   };
 
   const goToHomePage = () => {
-    history.push("/");
+    history.push(basePath);
   };
 
   return (
     <div>
       <Header isLoggedIn={isLoggedIn} goToHomePage={goToHomePage}></Header>
       <Switch>
-        <Route path="/" exact>
+        <Route path={basePath} exact>
           <HomePage
             isLoggedIn={isLoggedIn}
             onLogin={onLogin}
             onLogout={onLogout}
           ></HomePage>
         </Route>
-        <Route path="/dashboard" exact>
+        <Route path={basePath + "/dashboard"} exact>
           <DashboardPage
             cardList={cardList}
             createNewItem={createNewItem}
@@ -89,10 +89,10 @@ function App() {
             isLoggedIn={isLoggedIn}
           ></DashboardPage>
         </Route>
-        <Route path="/new-item" exact>
+        <Route path={basePath + "/new-item"} exact>
           <CreateItemPage onNewItem={onNewItem}></CreateItemPage>
         </Route>
-        <Route path="/contacts" exact>
+        <Route path={basePath + "/contacts"} exact>
           <ContactsPage></ContactsPage>
         </Route>
         <Route path="*">
