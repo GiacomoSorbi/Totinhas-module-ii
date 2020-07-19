@@ -1,0 +1,24 @@
+.contactUs {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  padding: 20px 0px;
+  background-color: rgba(243, 166, 131, 0.3);
+  margin-top: 80px;
+}
+
+.contactUs h2 {
+  margin: auto;
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contactUs {
+    width: 50%;
+  }
+}

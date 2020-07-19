@@ -1,0 +1,40 @@
+.Footer {
+  background-color: #2c3e50;
+  color: #ffffff;
+  display: block;
+  position: relative;
+  padding: 10px;
+}
+
+.Footer .copyRight {
+  font-size: 10px;
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 15px 10px;
+}
+
+.Footer .socialMedia {
+  font-size: 15px;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin: 15px 10px;
+}
+
+.Footer .socialMedia .fab,
+.Footer .socialMedia .fas {
+  display: inline-block;
+  position: relative;
+  width: 15%;
+  font-size: 20px;
+  vertical-align: bottom;
+}
+@media only screen and (min-width: 768px) {
+  .Footer .socialMedia .fab,
+  .Footer .socialMedia .fas {
+    width: 5%;
+  }
+}

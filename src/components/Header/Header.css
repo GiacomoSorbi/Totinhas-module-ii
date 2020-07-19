@@ -1,0 +1,41 @@
+header nav ul li {
+  display: inline-block;
+  margin: 0px;
+  margin: 10px;
+  text-align: center;
+}
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+}
+
+header {
+  background-color: #ff7043;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+header .displayLeft {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 800;
+  margin-left: 50px;
+}
+
+header nav ul {
+  text-align: center;
+  margin: 0;
+}
+
+header .active {
+  border-bottom: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+header .displayRight {
+  color: #ffffff;
+}
+@media screen and (min-width: 1200px) {
+}

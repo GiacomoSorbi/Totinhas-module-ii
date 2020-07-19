@@ -1,0 +1,47 @@
+.dashboard {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  padding: 40px 40px;
+  text-align: center;
+  min-height: 70vh;
+}
+
+.dashboard .addItem {
+  width: 250px;
+  height: 220px;
+  display: inline-block;
+  position: relative;
+  vertical-align: bottom;
+  text-align: center;
+  margin: 20px 15px;
+  background-color: rgba(243, 166, 131, 0.3);
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.dashboard .fa-plus {
+  font-size: 100px;
+  color: #ffffff;
+  top: 30%;
+  position: absolute;
+  left: 110px;
+}
+
+.dashboard .addItemText {
+  color: #2c3e50;
+  font-weight: 900;
+  text-align: center;
+}
+
+.dashboard .centered {
+  margin: 0 auto;
+
+  display: block;
+  position: relative;
+}
+@media only screen and (min-width: 800px) {
+  .dashboard {
+    text-align: left;
+  }
+}
