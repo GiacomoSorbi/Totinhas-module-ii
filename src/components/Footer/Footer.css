@@ -6,6 +6,9 @@
   padding: 10px;
 }
 
+.Footer a {
+  color: #ffffff;
+}
 .Footer .copyRight {
   font-size: 10px;
   display: block;
