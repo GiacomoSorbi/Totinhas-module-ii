@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Totinhas-module-ii/precache-manifest.f2fcc0abbdf6e5cf9c51abcc0fba01d4.js"
+  "/Totinhas-module-ii/precache-manifest.9464c30f7ce71bc513c19ff5052f193f.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a46d6642e8555f93abd027fa2370b89",
+    "revision": "accc4b554d68a84d1e0d0073973fe001",
     "url": "/Totinhas-module-ii/index.html"
   },
   {
-    "revision": "7f80e318bdc1e320cc99",
-    "url": "/Totinhas-module-ii/static/css/main.ff32d650.chunk.css"
+    "revision": "02ad715d1517981b99dd",
+    "url": "/Totinhas-module-ii/static/css/main.282178ac.chunk.css"
   },
   {
     "revision": "0cf72e7c3d0bc1d1bf9f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Totinhas-module-ii/static/js/2.ccb260fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f80e318bdc1e320cc99",
-    "url": "/Totinhas-module-ii/static/js/main.4ce58c14.chunk.js"
+    "revision": "02ad715d1517981b99dd",
+    "url": "/Totinhas-module-ii/static/js/main.291f98d9.chunk.js"
   },
   {
     "revision": "efa67f5a7af24a27b4d8",
