@@ -52,7 +52,13 @@ const Form = () => {
       <form>
         <h2>Contact us</h2>
         <label htmlFor="name">Name:</label>
-        <input onChange={onChangeName} value={name} name="name" type="text" />
+        <input
+          onChange={onChangeName}
+          value={name}
+          name="name"
+          type="text"
+          id="name"
+        />
         {isNameValid ? null : (
           <p className="errorName">please inset a valid name</p>
         )}
@@ -63,6 +69,7 @@ const Form = () => {
           value={email}
           type="email"
           name="email"
+          id="email"
         />
         {isEmailValid ? null : (
           <p className="errorEmail">please inset a valid email</p>
@@ -74,13 +81,19 @@ const Form = () => {
           value={phoneNumber}
           type="number"
           name="phoneNumber"
+          id="phoneNumber"
         />
         {isPhoneNumberValid ? null : (
           <p className="errorPhoneNumber">please inset a valid phone number</p>
         )}
 
         <label htmlFor="message">Message:</label>
-        <textarea onChange={onChangeMessage} value={message} name="message">
+        <textarea
+          onChange={onChangeMessage}
+          value={message}
+          name="message"
+          id="message"
+        >
           Write your message
         </textarea>
 

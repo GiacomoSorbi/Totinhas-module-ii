@@ -22,6 +22,7 @@ function averageItemLife(consumed) {
     (previous, current) => (current += previous),
     0
   );
+
   const avg = sum / consumedDiff.length;
   const avgDays = Math.ceil(avg / (1000 * 60 * 60 * 24));
   return avgDays;

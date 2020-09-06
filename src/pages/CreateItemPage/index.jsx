@@ -66,6 +66,7 @@ const CreateItemPage = ({ onNewItem }) => {
           name="itemName"
           value={itemName}
           onChange={onChangeItemName}
+          id="itemName"
         />
         {itemNameValid ? null : (
           <p className="errorName">please inset a valid name</p>
@@ -79,6 +80,7 @@ const CreateItemPage = ({ onNewItem }) => {
           name="iconSearch"
           value={iconSearch}
           onChange={onChangeIconSearch}
+          id="iconSearch"
         />
         <div className="iconsList">
           {filterIcon.map((icon, index) => {
@@ -106,6 +108,7 @@ const CreateItemPage = ({ onNewItem }) => {
           name="quantity"
           value={itemQuantity}
           onChange={onChangeItemQuantity}
+          id="quantity"
         />
         {isQuantityValid ? null : (
           <p className="errorQuantity">please insert a quantity</p>

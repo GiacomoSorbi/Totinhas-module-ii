@@ -64,6 +64,7 @@ const HomePage = ({ isLoggedIn, onLogin, onLogout }) => {
             <form>
               <label htmlFor="key">Key:</label>
               <input
+                id="key"
                 name="key"
                 type="password"
                 placeholder="Your personal key"
@@ -88,6 +89,7 @@ const HomePage = ({ isLoggedIn, onLogin, onLogout }) => {
             <form>
               <label htmlFor="email">Email:</label>
               <input
+                id="email"
                 name="email"
                 type="email"
                 placeholder="jon.white@gmail.com"
